@@ -1,50 +1,86 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "numenera-compendium",
+  "title": "Numenera Compendiums",
+  "description": "Provides compendiums of types/descriptors/foci/abilities for the Cypher System (Numenera) game",
   "version": "This is auto replaced",
   "library": "false",
-  "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
-  "authors": [
-    {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
-    }
-  ],
-  "dependencies": [
-
-  ],
-  "conflicts": [
-    
-  ],
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
+  "manifestPlusVersion": "1.0.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "author": "Farling",
+  "authors": [
     {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "name": "Farling",
+      "url": "https://github.com/farling42",
+      "email": "foundryvtt@amusingtime.uk",
+      "discord": "Farling#9579",
+      "ko-fi": "farling",
+      "patreon": "amusingtime",
+      "twitter": "@shambles42"
     }
-  ]
+  ],
+  "dependencies": [
+    {
+        "name": "pdfoundry",
+        "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
+    }
+  ],
+  "systems": [
+    "cyphersystem"
+  ],
+  "packs": [
+    {
+      "name": "discovery-descriptors",
+      "label": "Numenera Discovery Descriptors",
+      "path": "./packs/discovery-descriptors.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "discovery-foci",
+      "label": "Numenera Discovery Foci",
+      "path": "./packs/discovery-foci.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "discovery-types",
+      "label": "Numenera Discovery Types",
+      "path": "./packs/discovery-types.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "discovery-items",
+      "label": "Numenera Discovery Abilities",
+      "path": "./packs/discovery-abilities.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "destiny-descriptors",
+      "label": "Numenera Destiny Descriptors",
+      "path": "./packs/destiny-descriptors.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "destiny-foci",
+      "label": "Numenera Destiny Foci",
+      "path": "./packs/destiny-foci.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "destiny-types",
+      "label": "Numenera Destiny Types",
+      "path": "./packs/destiny-types.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "destiny-items",
+      "label": "Numenera Destiny Abilities",
+      "path": "./packs/destiny-abilities.db",
+      "entity": "JournalEntry"
+    }
+  ],
+  "license": "LICENSE",
+  "readme": "README.md"
 }

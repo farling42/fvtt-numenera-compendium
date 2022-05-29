@@ -1,71 +1,41 @@
-![](https://img.shields.io/badge/Foundry-v0.8.6-informational)
-<!--- Downloads @ Latest Badge -->
-<!--- replace <user>/<repo> with your username/repository -->
-<!--- ![Latest Release Download Count](https://img.shields.io/github/downloads/<user>/<repo>/latest/module.zip) -->
+[![ko-fi](https://img.shields.io/badge/Ko--Fi-farling-success)](https://ko-fi.com/farling)
+[![patreon](https://img.shields.io/badge/Patreon-amusingtime-success)](https://patreon.com/amusingtime)
+[![paypal](https://img.shields.io/badge/Paypal-farling-success)](https://paypal.me/farling)
+![GitHub License](https://img.shields.io/github/license/farling42/fvtt-numenera-compendium)
+![](https://img.shields.io/badge/Foundry-v9-informational)
+![Latest Release Download Count](https://img.shields.io/github/downloads/farling42/fvtt-numenera-compendium/latest/module.zip)
 
-<!--- Forge Bazaar Install % Badge -->
-<!--- replace <your-module-name> with the `name` in your manifest -->
-<!--- ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2F<your-module-name>&colorB=4aa94a) -->
+# Numenera Compendiums for the Cypher System (Numenera) game system
 
+This module provides a set of compendiums with provide journal entries containing page references for the types, descriptors and foci
+in Numenera Discovery and Numenera Destiny rulebooks.
 
-# How to use this Template to create a versioned Release
+As per the Fan Use Policy, no descriptive text or rules are provided in these compendiums; they contain only game terms and associated numerical values.
 
-1. Open your repository's releases page.
+In order to access the PDFs using the PDFoundry module, the journal entries for the PDFs must match the following exact spelling:
+- Numenera Discovery
+- Numenera Destiny
 
-![Where to click to open repository releases.](https://user-images.githubusercontent.com/7644614/93409301-9fd25080-f864-11ea-9e0c-bdd09e4418e4.png)
+The page offset for each document should be to 2 to ensure that the correct page is located via the page links.
 
-2. Click "Draft a new release"
+## Installation
 
-![Draft a new release button.](https://user-images.githubusercontent.com/7644614/93409364-c1333c80-f864-11ea-89f1-abfcb18a8d9f.png)
+The package should be available from the Add-On Modules, Install Module option of Foundry VTT.
 
-3. Fill out the release version as the tag name.
+If you want to install it manually, then enter the following into the Manifest URL at the bottom of the "Install Module" window:
 
-If you want to add details at this stage you can, or you can always come back later and edit them.
+https://github.com/farling42/fvtt-numenera-compendium/releases/latest/download/module.json
 
-![Release Creation Form](https://user-images.githubusercontent.com/7644614/93409543-225b1000-f865-11ea-9a19-f1906a724421.png)
+## Hard Dependency
 
-4. Hit submit.
+[PDFoundry](https://foundryvtt.com/packages/pdfoundry/) provides the PDF viewer for the links to the documentation provided in each journal entry.
 
-5. Wait a few minutes.
+## Licenses
 
-A Github Action will run to populate the `module.json` and `module.zip` with the correct urls that you can then use to distribute this release. You can check on its status in the "Actions" tab.
+Cypher System game terms and any material owned by Monte Cook Games is used in accordance with the Fan Use Policy.
 
-![Actions Tab](https://user-images.githubusercontent.com/7644614/93409820-c1800780-f865-11ea-8c6b-c3792e35e0c8.png)
+The software component of this system is distributed under the MIT license.
 
-6. Grab the module.json url from the release's details page.
+## Fan Use Policy
 
-![image](https://user-images.githubusercontent.com/7644614/93409960-10c63800-f866-11ea-83f6-270cc5d10b71.png)
-
-This `module.json` will only ever point at this release's `module.zip`, making it useful for sharing a specific version for compatibility purposes.
-
-7. You can use the url `https://github.com/<user>/<repo>/releases/latest/download/module.json` to refer to the manifest.
-
-This is the url you want to use to install the module typically, as it will get updated automatically.
-
-# How to List Your Releases on Package Admin
-
-To request a package listing for your first release, go to the [Package Submission Form](https://foundryvtt.com/packages/submit) (accessible via a link at the bottom of the "[Systems and Modules](https://foundryvtt.com/packages/)" page on the Foundry website).
-
-Fill in the form. "Package Name" must match the name in the module manifest.  Package Title will be the display name for the package.  Package URL should be your repo URL.
-![image](https://user-images.githubusercontent.com/36359784/120664263-b49e5500-c482-11eb-9126-af7006389903.png)
-
-
-One of the Foundry staff will typically get back to you with an approval or any further questions within a few days, and give you access to the package admin pages.
-
-Once you have access to the [module admin page](https://foundryvtt.com/admin/packages/package/), you can release a new version by going into the page for your module, scrolling to the bottom, and filling in a new Package Version.
-
-When listing a new version, Version should be the version number you set above, and the Manifest URL should be the manifest __for that specific version__ (do not use /latest/ here).
-![image](https://user-images.githubusercontent.com/36359784/120664346-c4b63480-c482-11eb-9d8b-731b50d70939.png)
-
-> ### :warning: Important :warning:
-> 
-> It is very important that you use the specific release manifest url, and not the `/latest` url here. For more details about why this is important and how Foundry Installs/Updates packages, read [this wiki article](https://foundryvtt.wiki/en/development/guides/releases-and-history).
-
-Clicking "Save" in the bottom right will save the new version, which means that anyone installing your module from within Foundry will get that version, and a post will be generated in the #release-announcements channel on the official Foundry VTT Discord.
-
-
-# FoundryVTT Module
-
-Does something, probably
-
-## Changelog
+*The Monte Cook Games logo, Numenera, the Cypher System, No Thank You, Evil!, Invisible Sun, and their respective logos are are trademarks of Monte Cook Games, LLC in the U.S.A. and other countries. All Monte Cook Games characters and character names, and the distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC. Content on this site or associated files derived from Monte Cook Games publications is © 2013-2021 Monte Cook Games, LLC. Monte Cook Games permits web sites and similar fan-created publications for their games, subject to the policy given at [https://www.montecookgames.com/fan-use-policy/](). The contents of this site are for personal, non-commercial use only. Monte Cook Games is not responsible for this site or any of the content, that did not originate directly from Monte Cook Games, on or in it. Use of Monte Cook Games’s trademarks and copyrighted materials anywhere on this site and its associated files should not be construed as a challenge to those trademarks or copyrights. Materials on this site may not be reproduced or distributed except with the permission of the site owner and in compliance with Monte Cook Games policy given at [https://www.montecookgames.com/fan-use-policy/]().*
