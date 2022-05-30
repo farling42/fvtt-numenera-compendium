@@ -54,7 +54,7 @@
       "name": "discovery-items",
       "label": "Numenera Discovery Abilities",
       "path": "./packs/discovery-abilities.db",
-      "entity": "JournalEntry"
+      "entity": "Item"
     },
     {
       "name": "destiny-descriptors",
@@ -78,7 +78,7 @@
       "name": "destiny-items",
       "label": "Numenera Destiny Abilities",
       "path": "./packs/destiny-abilities.db",
-      "entity": "JournalEntry"
+      "entity": "Item"
     }
   ],
   "license": "LICENSE",
