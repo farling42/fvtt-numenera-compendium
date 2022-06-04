@@ -7,7 +7,10 @@
 
 # Numenera Compendiums for the Cypher System (Numenera) game system
 
-This module provides a set of compendiums for use with the [Cypher System game system for Foundry VTT](https://foundryvtt.com/packages/cyphersystem/). The compendiums provide journal entries containing page references for the types, descriptors and foci in the Numenera Discovery and Numenera Destiny rulebooks.
+This module provides a set of compendiums for use with the [Cypher System game system for Foundry VTT](https://foundryvtt.com/packages/cyphersystem/). The compendiums provide journal entries containing page references for thefollowing from the Numenera Discovery and Numenera Destiny rulebooks.
+- Types
+- Descriptors
+- Foci
 
 As per the Fan Use Policy, no descriptive text or rules are provided in these compendiums; they contain only game terms and associated numerical values.
 
