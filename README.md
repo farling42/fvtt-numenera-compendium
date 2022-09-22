@@ -18,7 +18,7 @@ In order to access the PDFs using the PDFoundry module, the names of the journal
 - Numenera Discovery
 - Numenera Destiny
 
-The page offset for each document should be to 2 to ensure that the correct page is located via the page links.
+The page offset for each document should be set to 2 to ensure that the correct page is located via the page links.
 
 ## Installation
 
