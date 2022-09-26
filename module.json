@@ -22,12 +22,6 @@
       "twitter": "@shambles42"
     }
   ],
-  "dependencies": [
-    {
-        "name": "pdfoundry",
-        "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
-    }
-  ],
   "systems": [
     "cyphersystem"
   ],
