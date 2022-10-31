@@ -1,4 +1,5 @@
 {
+  "id": "numenera-compendium",
   "name": "numenera-compendium",
   "title": "Numenera Compendiums",
   "description": "Provides compendiums of types/descriptors/foci/abilities for the Cypher System (Numenera) game",
@@ -8,8 +9,11 @@
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
   "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "10",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.288"
+  },
   "author": "Farling",
   "authors": [
     {
@@ -22,57 +26,66 @@
       "twitter": "@shambles42"
     }
   ],
-  "systems": [
-    "cyphersystem"
-  ],
-  "packs": [
+  "relationships": {
+    "systems": [{
+      "id": "cyphersystem",
+      "type": "system",
+      "manifest": "https://raw.githubusercontent.com/mrkwnzl/cyphersystem-foundryvtt/v2.0.1/system.json",
+      "compatibility": {
+        "verified": "2.0.1"
+      }
+    }]
+  },
+    "packs": [
     {
       "name": "discovery-descriptors",
       "label": "Numenera Discovery Descriptors",
       "path": "./packs/discovery-descriptors.db",
-      "entity": "JournalEntry"
+      "type": "JournalEntry"
     },
     {
       "name": "discovery-foci",
       "label": "Numenera Discovery Foci",
       "path": "./packs/discovery-foci.db",
-      "entity": "JournalEntry"
+      "type": "JournalEntry"
     },
     {
       "name": "discovery-types",
       "label": "Numenera Discovery Types",
       "path": "./packs/discovery-types.db",
-      "entity": "JournalEntry"
+      "type": "JournalEntry"
     },
     {
       "name": "discovery-items",
       "label": "Numenera Discovery Abilities",
       "path": "./packs/discovery-abilities.db",
-      "entity": "Item"
+      "system": "cyphersystem",
+      "type": "Item"
     },
     {
       "name": "destiny-descriptors",
       "label": "Numenera Destiny Descriptors",
       "path": "./packs/destiny-descriptors.db",
-      "entity": "JournalEntry"
+      "type": "JournalEntry"
     },
     {
       "name": "destiny-foci",
       "label": "Numenera Destiny Foci",
       "path": "./packs/destiny-foci.db",
-      "entity": "JournalEntry"
+      "type": "JournalEntry"
     },
     {
       "name": "destiny-types",
       "label": "Numenera Destiny Types",
       "path": "./packs/destiny-types.db",
-      "entity": "JournalEntry"
+      "type": "JournalEntry"
     },
     {
       "name": "destiny-items",
       "label": "Numenera Destiny Abilities",
       "path": "./packs/destiny-abilities.db",
-      "entity": "Item"
+      "system": "cyphersystem",
+      "type": "Item"
     }
   ],
   "license": "LICENSE",
