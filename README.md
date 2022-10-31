@@ -32,7 +32,7 @@ https://github.com/farling42/fvtt-numenera-compendium/releases/latest/download/m
 
 ## Soft Dependencies
 
-[PDF Pager](https://github.com/farling42/fvtt-pdf-pager/releases/latest/download/module.json) provides the ability open PDFs at a specific page.
+[PDF Pager](https://github.com/farling42/fvtt-pdf-pager/releases/latest/download/module.json) provides the ability to open PDFs at a specific page.
 
 Additional markers are placed into each of the journal entries which provide compatibility with the Creation Tool component of the [Nice(TSY) Cypher Add-Ons](https://github.com/NiceTSY/nice-cypher-add-ons) module.
 
