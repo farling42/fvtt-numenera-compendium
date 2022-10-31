@@ -8,6 +8,7 @@
 # Numenera Compendiums for the Cypher System (Numenera) game system
 
 This module provides a set of compendiums for use with the [Cypher System game system for Foundry VTT](https://foundryvtt.com/packages/cyphersystem/). The compendiums provide journal entries containing page references for thefollowing from the Numenera Discovery and Numenera Destiny rulebooks.
+
 - Types
 - Descriptors
 - Foci
@@ -15,6 +16,7 @@ This module provides a set of compendiums for use with the [Cypher System game s
 As per the Fan Use Policy, no descriptive text or rules are provided in these compendiums; they contain only game terms and associated numerical values.
 
 In order to access the PDFs using the PDFoundry module, the names of the journal entries for the PDFs must match the following exact spelling:
+
 - Numenera Discovery
 - Numenera Destiny
 
@@ -28,11 +30,9 @@ If you want to install it manually, then enter the following into the Manifest U
 
 https://github.com/farling42/fvtt-numenera-compendium/releases/latest/download/module.json
 
-## Hard Dependency
+## Soft Dependencies
 
-[PDFoundry](https://foundryvtt.com/packages/pdfoundry/) provides the PDF viewer for the links to the documentation provided in each journal entry.
-
-## Soft Dependency
+[PDF Pager](https://github.com/farling42/fvtt-pdf-pager/releases/latest/download/module.json) provides the ability open PDFs at a specific page.
 
 Additional markers are placed into each of the journal entries which provide compatibility with the Creation Tool component of the [Nice(TSY) Cypher Add-Ons](https://github.com/NiceTSY/nice-cypher-add-ons) module.
 
