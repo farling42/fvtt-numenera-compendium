@@ -15,6 +15,8 @@ This module provides a set of compendiums for use with the [Cypher System game s
 
 As per the Fan Use Policy, no descriptive text or rules are provided in these compendiums; they contain only game terms and associated numerical values.
 
+## Using PDFs
+
 In order to access the PDFs using the PDFoundry module, the names of the journal entries for the PDFs must match the following exact spelling:
 
 - Numenera Discovery
