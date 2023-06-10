@@ -5,6 +5,8 @@
 ![](https://img.shields.io/badge/Foundry-v9-informational)
 ![Latest Release Download Count](https://img.shields.io/github/downloads/farling42/fvtt-numenera-compendium/latest/module.zip)
 
+No further work will be performed on this module since it was not approved the Foundry VTT company.
+
 # Numenera Compendiums for the Cypher System (Numenera) game system
 
 This module provides a set of compendiums for use with the [Cypher System game system for Foundry VTT](https://foundryvtt.com/packages/cyphersystem/). The compendiums provide journal entries containing page references for thefollowing from the Numenera Discovery and Numenera Destiny rulebooks.
